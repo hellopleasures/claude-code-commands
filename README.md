@@ -40,13 +40,13 @@ Copy the `commands/` folder into your project's `.claude/` directory:
 ```bash
 # From your project root
 mkdir -p .claude/commands
-curl -sL https://github.com/hellopleasures/claude-code-commands/archive/main.tar.gz | tar xz --strip-components=2 -C .claude/commands "claude-code-commands-main/commands/"
+curl -sL https://github.com/AlphaTONCapital/claude-code-commands/archive/main.tar.gz | tar xz --strip-components=2 -C .claude/commands "claude-code-commands-main/commands/"
 ```
 
 Or clone and copy:
 
 ```bash
-git clone https://github.com/hellopleasures/claude-code-commands.git
+git clone https://github.com/AlphaTONCapital/claude-code-commands.git
 cp -r claude-code-commands/commands/ your-project/.claude/commands/
 ```
 
